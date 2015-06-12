@@ -1,0 +1,27 @@
+[
+	{ 
+		"cityName": "Holland",
+		"state": "MI",
+		"yearsThere": 15 
+	},
+	{ 
+		"cityName": "Redding",
+		"state": "CA",
+		"yearsThere": 2
+	},
+	{ 
+		"cityName": "Union City",
+		"state": "GA",
+		"yearsThere": 1
+	},
+	{ 
+		"cityName": "Newnan",
+		"state": "GA",
+		"yearsThere": 6
+	},
+	{ 
+		"cityName": "Hollywood",
+		"state": "CA",
+		"yearsThere": 0
+	}
+]

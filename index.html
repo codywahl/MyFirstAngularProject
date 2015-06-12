@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="ngCityHistory">
+  <head>
+    <meta charset="UTF-8">
+    <title>My ng-cities app.</title>    
+  </head>
+  <body>
+    <!-- Attached the cityController, aliased as cityCtrl to this div. -->
+    <div ng-controller="cityController as cityCtrl">
+      
+        <!-- Custom directive example -->
+        <cities-container></cities-container>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="JS/angular.min.js"></script>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

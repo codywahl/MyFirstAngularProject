@@ -1,0 +1,6 @@
+<!-- ng-repeat example. (for-loop) -->
+<div ng-repeat="city in cityCtrl.allCities">
+	<h3 ng-show="{{city.yearsThere > 0}}">
+		{{"City: " + city.cityName + " State: " + city.state + " Years there: " + city.yearsThere}} 
+	</h3>
+</div>
