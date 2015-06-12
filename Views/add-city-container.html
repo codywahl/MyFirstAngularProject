@@ -1,0 +1,23 @@
+<!-- add-city-container.html -->
+<form name="add-city-form" ng-controller="formController as formCtrl" ng-submit="formCtrl.addCity(city)">
+	 <legend>Add a city</legend>
+	<fieldset class="city-group">
+		<textarea ng-model:"formCtrl.city.cityName" placeholder="City name . . ." title="cityName"></textarea>
+	</fieldset>
+	<fieldset class="city-group">
+		<textarea ng-model:"formCtrl.city.state" placeholder="State . . ." title="state"></textarea>
+	</fieldset>
+	<fieldset class="city-group">
+		<textarea ng-model:"formCtrl.city.yearsThere" placeholder="Years there . . ." title="cityName"></textarea>
+	</fieldset>
+	<fieldset class="form-group">
+    	<input type="submit" class="btn" value="Submit" />
+  	</fieldset>
+
+  	  <!--  Live Preview -->
+  	<blockquote >
+  		<strong>City: </strong>{{formCtrl.city.cityName}}    	
+    	<strong>State: </strong>{{formCtrl.city.state}}
+    	<strong>Years there: </strong>{{formCtrl.city.yearsThere}}
+  	</blockquote>
+</form>
